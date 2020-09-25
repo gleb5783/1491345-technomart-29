@@ -213,11 +213,11 @@
 
 .products-heading {
 	font-family: PT Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 20px;
-color: var(--basic-black);
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
+	color: var(--basic-black);
 }
 
 .strike {
@@ -231,20 +231,20 @@ color: var(--basic-black);
 
 .main-offer-heading {
 	font-family: Cuprum;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 30px;
-color: var(--basic-black);'
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 30px;
+	color: var(--basic-black);'
 }
 
 .main-offer-about-text {
 	font-family: PT Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 24px;
-color: var(--basic-black);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 24px;
+	color: var(--basic-black);
 }
 
 .list-button {
@@ -254,85 +254,85 @@ color: var(--basic-black);
 
 .main-offer-delivery-heading {
 	font-family: Cuprum;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 30px;
-color: var(--basic-dark-blue);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 30px;
+	color: var(--basic-dark-blue);
 }
 
 .about-offer-text {
 	font-family: PT Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 24px;
-color: var(--basic-black);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 24px;
+	color: var(--basic-black);
 }
 
 .send-request {
 	font-family: Cuprum;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 18px;
-color: var(--basic-white);
-background-color: var(--basic-red);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: var(--basic-white);
+	background-color: var(--basic-red);
 }
 
 .mian-contact-heading {
 	font-family: Cuprum;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 30px;
-color: var(--basic-black);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 30px;
+	color: var(--basic-black);
 }
 
 .main-contact-text {
 	font-family: PT Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 24px;
-color: var(--basic-black);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 24px;
+	color: var(--basic-black);
 }
 
 .benefits {
 	font-family: Cuprum;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 24px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
 }
 
 .about-team {
 	font-family: Cuprum;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 18px;
-color: var(--basic-white);
-background-color: var(--basic-red);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: var(--basic-white);
+	background-color: var(--basic-red);
 }
 
 .feedback {
 	background-color: var(--basic-red);
 	color: var(--basic-white);
 	font-family: Cuprum;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 18px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
 }
 
 .map {
 	font-family: PT Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 24px;
-color: var(--basic-black);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 24px;
+	color: var(--basic-black);
 }
 
 
@@ -346,48 +346,48 @@ color: var(--basic-black);
 
 .footer-contact-inf {
 	font-family: Cuprum;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 24px;
-color: var(--basic-light-grey);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--basic-light-grey);
 }
 
 .footer-tel {
-		font-family: Cuprum;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 24px;
-color: var(--basic-light-grey);
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--basic-light-grey);
 }
 
 .footer-link-top a {
 	font-family: Cuprum;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 24px;
-color: var(--basic-white);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--basic-white);
 }
 
 .footer-link-bottom a {
 	font-family: Cuprum;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 24px;
-color: var(--basic-dark-orange);
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--basic-dark-orange);
 }
 
 .footer-copyright {
 	background-color: var(--nav-background);
 	color: var(--basic-white);
 	font-family: Cuprum;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 18px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 18px;
 }
 
 .feed-back a {
