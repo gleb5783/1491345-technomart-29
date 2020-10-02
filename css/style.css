@@ -1,3 +1,7 @@
+*, *::before, *::after { 
+	box-sizing: border-box; 
+}
+
 :root {
 	--basic-red: #EE3643;
 	--hover-red: #CA2C37;
@@ -632,7 +636,7 @@
 	width: 44px;
 	height: 44px;
 	border-radius: 20px;
-	background-image: url(../img/icon-vk.svg);
+	background-image: url(../img/vk.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -645,7 +649,7 @@
 	width: 44px;
 	height: 44px;
 	border-radius: 20px;
-	background-image: url(../img/icon-insta.svg);
+	background-image: url(../img/insta.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -656,7 +660,7 @@
 	width: 44px;
 	height: 44px;
 	border-radius: 20px;
-	background-image: url(../img/icon-fb.svg);
+	background-image: url(../img/fb.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 }
