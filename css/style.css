@@ -34,10 +34,26 @@
 	--background-vk: #212A31;
 }
 
+.page-body {
+	display: grid;
+	grid-template-rows: min-content 1fr min-content;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 130px;
+  margin: 0 auto;
+}
+
+.page{
+	height: 100%;
+}
 
 .header-top-line {
 	background-color: var(--nav-background);
 }
+
+
 
 .header-logo {
 	width: 220px;
@@ -72,6 +88,13 @@
 	color: var(--basic-black);	
 }
 
+.header-button-position {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	
+}
+
 .header-button-position a{
 	color: var(--basic-white);
 	font-family: Cuprum;
@@ -79,6 +102,7 @@
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 24px;
+	text-decoration-line: none;
 }
 
 .header-button-bookmarks:active {
@@ -103,6 +127,7 @@
 	color: var(--background-click-text);
 }
 
+
 .about-site {
 	font-family: Cuprum;
 	font-style: italic;
@@ -110,7 +135,10 @@
 	font-size: 16px;
 	line-height: 23px;
 	color: var(--basic-red);
+	margin: 0;
+	padding: 46px 0 20px 0;
 }
+
 
 .tel {
 	font-family: Cuprum;
@@ -125,6 +153,7 @@
 	display: inline-block;
 	text-align: center;
 	padding: 7px 0 8px 0;
+	margin-top: 41px;
 	text-decoration-line: none;
 }
 
@@ -169,12 +198,18 @@
 	background-color: var(--background);
 }
 
-.nav {
+.main-nav {
 	background-color: var(--basic-dark-blue);
 	box-shadow: inset 0px -5px 0px #293449;
+	margin: 0;
+	padding: 0 53px;
+	list-style: none;
+
+	
 }
 
 .main-nav a{
+	text-decoration-line: none;
 	font-family: Cuprum;
 	font-style: normal;
 	font-weight: normal;
@@ -182,6 +217,10 @@
 	line-height: 24px;
 	color: var(--basic-white);
 
+}
+
+.style-link {
+ padding: 16px 0 20px 0;
 }
 
 .style-link:hover {
@@ -215,10 +254,25 @@
 
 .discount {
 	background-color: var(--basic-light-green);
+	grid-column-start: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
 }
 
 .delivery {
-	background-color: var(--basic-dark-orange);'
+	background-color: var(--basic-dark-orange);
+	grid-column-start: 3;
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+
+.main-serves-slider {
+	border: 1px solid red;
+	grid-column: 1/3;
+	grid-row: 2/4;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 .main-serves-link-style:hover {
@@ -231,6 +285,20 @@
 	background-color: var(--basic-grey);
 	mix-blend-mode: normal;
 	opacity: 0.3;
+}
+
+
+.main-serves-container {
+	display: grid;
+	
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-top: 59px;
+	grid-gap: 20px;
+}
+
+.main-serves-container article {
+	width: 300px;
+	height: 123px;
 }
 
 .main-serves-heading {
@@ -285,6 +353,7 @@
 .slider-button-style:active {
 	background-color: var(--active-red);
 }
+
 
 .main-flex-box {
 	background-color: var(--white-chocolate);
@@ -402,6 +471,10 @@
 	opacity: 0.5;
 }
 
+
+.main-offer {
+	background-color: var(--)
+}
 
 .main-offer-heading {
 	font-family: Cuprum;
