@@ -1030,6 +1030,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	width: 700px;
+	gap: 20px;
 }
 
 .catalog-form {
