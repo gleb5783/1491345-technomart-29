@@ -401,7 +401,7 @@
 
 .main-popular-item-catalog {
 	display: flex;
-	justify-content: space-between;
+	
 	margin: 0;
 	padding: 0;
 }
@@ -866,11 +866,7 @@
 	flex-direction: column;
 }
 
-.main-popular-item-catalog {
-	display: flex;
-	flex-wrap: wrap;
-	
-}
+
 
 .user-button {
 	display: flex;
@@ -1030,6 +1026,15 @@
 	line-height: 24px;
 }
 
+.main-catalog .main-popular-item-catalog {
+	display: flex;
+	flex-wrap: wrap;
+	width: 700px;
+}
 
-
+.catalog-form {
+	width: 220px;
+	height: 720px;
+	border: 1px solid red;
+}
 
