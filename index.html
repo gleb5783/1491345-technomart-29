@@ -8,15 +8,42 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body class="page-body">
-
+<div class="modal-window">
+	<img src="img/icon-close.svg" class="close">
+	<div class="centr">
+		<div class="modal-flex">
+			<div class="top-input">
+				<div class="left-input">
+					<h2 class="heading">Ваше имя:</h2>
+					<input  class="registred" type="text" name="name" value="Имя Фамилия">
+				</div>
+				<div class="right-input">
+					<h2 class="heading">Ваш e-mail:</h2>
+					<input  class="registred" type="email" name="email" value="email@example.com">
+				</div>
+			</div>
+			<div class="bottom-input">
+				<h2 class="heading">Текст письма:</h2>
+				<input type="text" name="text" placeholder="В свободной форме" class="bottom-text">
+			</div>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<div class="centr">
+			<a class="modal-enter" href="#">Отправить</a>
+		</div>
+	</div>
+</div>
 	<header class="header">
 		
 		<div class="header-top-line">
 			<div class="container">
-				<a class="header-logo">
-					<img src="img/logo-technomart.svg" alt="Техномарт" width="106.83" height="16.9" >
-				</a>
-				<input class="main-search"  type="search" name="search" value="Поиск:">
+				<div class="flex">
+					<a class="header-logo">
+						<img src="img/logo-technomart.svg" alt="Техномарт" width="106.83" height="16.9" >
+					</a>
+					<input class="main-search"  type="search" name="search" value="Поиск:">
+				</div>
 				<ul class="header-button-position">
 					<li>
 						<a href="#" class="header-button-bookmarks">Закладки: 0</a>
@@ -44,7 +71,7 @@
 				</div>
 			</div>
 		</div>	
-		<nav class="container">
+		<nav class="nav-padding container">
 			<ul class="main-nav">
 				<li class="style-link">
 					<a href="#">Главная</a>
@@ -274,23 +301,24 @@
 	</div>
 </section>
 
-<div class="container">
-	<section class="main-contact">
 
+<section class="main-contact">
+	<div class="container">
 		<div class="main-contact-text">
 			<h2 class="mian-contact-heading">Компания "Техномарт"</h2>
+			<span class="main-contact-text-p">
 			<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для<br> ремонта и строительства не оставит равнодушными любителей сэкономить на<br> гастарбайтерах.</p>
-
 			<p>
 				Мы можем доставить ваш товар в самые отдаленные точки России!<br>
 				Техномарт работает со многими транспортными компаниями:<br>
+			</p>
+			</span>	
 				<ul class="benefits">
 					<li>Деловые линии</li>
 					<li>Автотрейдинг</li>
 					<li>ЖелДорЭкспедиция</li>
 				</ul>
-				<a class="about-team" href="#">Подробнее о компании</a>
-			</p>
+			<a class="about-team" href="#">Подробнее о компании</a>
 		</div>
 		<div class="map">
 			<h2 class="mian-contact-heading">Контакты</h2>
@@ -300,8 +328,9 @@
 			<!-- Тут будет карты-->
 			<a href="#" class="feedback">Заблудились? Напишите нам!</a>
 		</div>
-	</section>
-</div>
+	</div>
+</section>
+
 </main>
 
 <footer class="footer">
@@ -310,8 +339,9 @@
 			<a class="footer-logo">
 				<img src="img/footer-logo-technomart.svg" alt="Техномарт" width="136.5" height="21.6">
 			</a>
-			<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+			<p class="footer-text">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
 			<a href="tel:+78125550555" class="footer-tel">+7 (812) 555-05-55</a>
+			</p>
 		</div>
 		<div class="footer-link-flex">
 			<ul class="footer-link-top">
@@ -331,7 +361,7 @@
 	</div>
 	<div class="footer-copyright">
 		<div class="container">
-			<p>© 2010–2019 Компания «Техномарт»<br>Все права защищены</p>
+			<p class="copyright-text">© 2010–2019 Компания «Техномарт»<br>Все права защищены</p>
 
 			<div class="social-link">
 				<a href="#" class="vk" aria-label="Вконтакте"></a>
@@ -339,8 +369,8 @@
 				<a href="#" class="inst" aria-label="Instagram"></a>
 			</div>
 			<div class="feed-back">	
-				<p>Обратная связь: <br> <a class="footer-mail">mail@htmlacademy.ru</a> </p>
-				<p>Разработано —<br> <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
+				<p class="copyright-text">Обратная связь: <br> <a class="footer-mail">mail@htmlacademy.ru</a> </p>
+				<p class="copyright-text">Разработано —<br> <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
 			</div>	
 		</div>
 	</div>
