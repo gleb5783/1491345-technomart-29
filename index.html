@@ -45,13 +45,13 @@
 					<input class="main-search"  type="search" name="search" value="Поиск:">
 				</div>
 				<ul class="header-button-position">
-					<li>
+					<li class="bookmarks">
 						<a href="#" class="header-button-bookmarks">Закладки: 0</a>
 					</li>
-					<li>
+					<li class="basket">
 						<a href="#" class="header-button-basket">Корзина: 0</a>
 					</li>
-					<li>
+					<li class="button-checkout">
 						<a href="#" class="header-button-checkout">Оформить заказ</a>
 					</li>
 				</ul>
@@ -151,8 +151,12 @@
 
 					<ul class="main-serves-slider"><!-- тут будет карусель -->
 						<li class="main-serves-slider-item">
-							<h3 class="slider-heading">Перфораторы</h3>
-							<p class="slider-text">Настоящие мужские игрушки</p>
+							<img class="slider-arrow-right" src="img/icon-left.svg" width="22" height="40" alt="arrow-right">
+							<img class="slider-arrow-left" src="img/icon-left.svg" width="22" height="40" alt="arrow-left">
+							<div class="top-slider-text">
+								<h3 class="slider-heading">Перфораторы</h3>
+								<p class="slider-text">Настоящие мужские игрушки</p>
+							</div>
 							<a href="#" class="slider-button slider-button-style">Открыть каталог</a>
 						</li>
 					<!--<li>
@@ -173,43 +177,49 @@
 
 			<ul class="main-popular-item-catalog">
 				<li class="list-style">
-					<div class="main-popular-item-catalog-hover-link">
-						<a href="#" class="buy">Купить</a>
-						<a href="#" class="to-bookmarks">В закладки</a>
+					<div class="list-style-top">
+						<div class="main-popular-item-catalog-hover-link">
+							<a href="#" class="buy">Купить</a>
+							<a href="#" class="to-bookmarks">В закладки</a>
+						</div>	
+						<img class="img-21" src="img/21.png" alt="Перфоратор BOSCH BFG 9000" width="184" height="164">
 					</div>	
-						<img src="img/21.png" alt="Перфоратор BOSCH BFG 9000" width="184" height="164">
 					<h3 class="products-heading">Перфоратор BOSCH<br>BFG 9000</h3>  <p> <strike class="strike">32500 Р.</strike>  <a href="#" class="price"> 25500 Р.</a></p>
 				</li>
 
 				<li class="list-style">
 					<img class="new" src="img/new.svg" width="70" height="70" alt="new">
-					<div class="main-popular-item-catalog-hover-link">
-						<a href="#" class="buy">Купить</a>
-						<a href="#" class="to-bookmarks">В закладки</a>
-					</div>	
-					
-						<img src="img/22.png" alt="Перфоратор BOSCH BFG 3000" width="127" height="112">
-					
+					<div class="list-style-top">
+						<div class="main-popular-item-catalog-hover-link">
+							<a href="#" class="buy">Купить</a>
+							<a href="#" class="to-bookmarks">В закладки</a>
+						</div>	
+						<img class="img-22" src="img/22.png" alt="Перфоратор BOSCH BFG 3000" width="127" height="112">
+					</div>
 					<h3 class="products-heading">Перфоратор BOSCH<br>BFG 3000 </h3> <p><strike class="strike">22500 Р.</strike>  <a href="#" class="price">15500 Р.</a></p>
 				</li>
 
 				<li class="list-style">
-					<div class="main-popular-item-catalog-hover-link">
-						<a href="#" class="buy">Купить</a>
-						<a href="#" class="to-bookmarks">В закладки</a>
+					<div class="list-style-top">
+						<div class="main-popular-item-catalog-hover-link">
+							<a href="#" class="buy">Купить</a>
+							<a href="#" class="to-bookmarks">В закладки</a>
+						</div>	
+						<img class="img-23" src="img/23.png" alt="Перфоратор BOSCH BFG 6000" width="144" height="128">
 					</div>	
-					<img src="img/23.png" alt="Перфоратор BOSCH BFG 6000" width="144" height="128">
 					<h3 class="products-heading">Перфоратор BOSCH<br>BFG 6000</h3> <p> <strike class="strike">30500 Р.</strike>  <a href="#" class="price">25500 Р.</a></p>
 				</li>
 
 				<li class="list-style">
 					<img class="new" src="img/new.svg" width="70" height="70" alt="new">
-					<div class="main-popular-item-catalog-hover-link">
-						<a href="#" class="buy">Купить</a>
-						<a href="#" class="to-bookmarks">В закладки</a>
+					<div class="list-style-top">
+						<div class="main-popular-item-catalog-hover-link">
+							<a href="#" class="buy">Купить</a>
+							<a href="#" class="to-bookmarks">В закладки</a>
+						</div>	
+						<img class="img-24" src="img/24.png" alt="Перфоратор BOSCH BFG 2000" width="127" height="112">
 					</div>	
-					<img src="img/24.png" alt="Перфоратор BOSCH BFG 2000" width="127" height="112">
-					<h3 class="products-heading">Перфоратор BOSCH<br>BFG 2000</h3> <p> <a href="#" class="price">12500 Р.</a></p>
+					<h3 class="products-heading">Перфоратор BOSCH<br>BFG 2000</h3> <p class="bottom-price"> <a href="#" class="price">12500 Р.</a></p>
 				</li>
 			</ul>
 		</section>
@@ -221,35 +231,35 @@
 				<a href="#" class="main-link">Все производители</a>
 			</div>
 			<ul class="main-popular-brands">
-				<li>
+				<li class="main-popular-brands-container">
 					<a href="#" aria-label="Ссылка на товары Bosh"> <img src="img/bosh.png" alt="bosh" width="220" height="145"> </a>
 				</li>
 
-				<li>
+				<li class="main-popular-brands-container">
 					<a href="#" aria-label="Ссылка на товары makita"> <img src="img/makita.png" alt="makita" width="220" height="145"> </a>
 				</li>
 
-				<li>
+				<li class="main-popular-brands-container">
 					<a href="#" aria-label="Ссылка на товары dewalt"> <img src="img/dewalt.png" alt="dewalt" width="220" height="145"> </a>
 				</li>
 
-				<li>
+				<li class="main-popular-brands-container">
 					<a href="#" aria-label="Ссылка на товары interskom"> <img src="img/interskom.png" alt="interskom" width="220" height="145"> </a>
 				</li>
 
-				<li>
+				<li class="main-popular-brands-container">
 					<a href="#" aria-label="Ссылка на товары hitachi"> <img src="img/hitachi.png" alt="hitachi" width="220" height="145"> </a>
 				</li>
 
-				<li>
+				<li class="main-popular-brands-container">
 					<a href="#" aria-label="Ссылка на товары lg"> <img src="img/lg.png" alt="lg" width="220" height="145"> </a>
 				</li>
 
-				<li>
+				<li class="main-popular-brands-container">
 					<a href="#" aria-label="Ссылка на товары aeg"> <img src="img/aeg.png" alt="aeg" width="220" height="145" alt=""> </a>
 				</li>
 
-				<li>
+				<li class="main-popular-brands-container">
 					<a href="#" aria-label="Ссылка на товары metabo"> <img src="img/metabo.png" alt="metabo" width="220" height="145"> </a>
 				</li>
 			</ul>
