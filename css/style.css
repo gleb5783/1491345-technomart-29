@@ -599,6 +599,7 @@
 	display: flex;
 	text-decoration-line: none;
 	width: 135px;
+	text-transform: uppercase;
 	height: 38px;
 	align-items: center;
 	justify-content: center;
@@ -636,13 +637,11 @@
 	line-height: 18px;
 	color: var(--basic-white);
 	text-decoration: none;
-	display: flex;
-	align-items: center;
+	text-transform: uppercase;
+	padding: 11px 46px 9px 46px;
 	width: 192px;
-	height: 38px;
 	background-color: var(--basic-red);
 	margin: 97px 0 0 24px;
-	justify-content: center;
 }
 
 .slider-button-style:hover {
@@ -681,11 +680,7 @@
 	color: var(--basic-white);
 	background-color: var(--basic-red);
 	text-decoration-line: none;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 192px;
-	height: 38px;
+	padding: 11px 38px 9px 39px;
 	text-transform: uppercase;
 	margin-right: 14px;
 }
@@ -734,16 +729,27 @@
 }
 
 .main-popular-item-catalog-hover-link .buy {
+	position: relative;
 	color: var(--basic-white);
 	background-color: var(--basic-green);
 	box-shadow: inset 0px -3px 0px #367315;
 	border-radius: 2px;
-	display: flex;
 	width: 135px;
-	height: 38px;
-	justify-content: center;
-	align-items: center;
+	text-transform: uppercase;
+	padding: 10px 40px 10px 53px;
 	text-decoration: none;
+	font-family: Cuprum;
+	font-size: 14px;
+	line-height: 18px;
+	
+
+
+}
+
+.svg-buy {
+	position: absolute;
+	left: 30px;
+	opacity: 0.3;
 }
 
 .main-popular-item-catalog-hover-link .buy:hover {
@@ -758,14 +764,14 @@
 .main-popular-item-catalog-hover-link .to-bookmarks {
 	border: 3px solid var(--basic-green);
 	box-sizing: border-box;
+	font-family: Cuprum;
+	font-size: 14px;
+	line-height: 18px;
 	border-radius: 2px;
+	text-transform: uppercase;
 	background-color: var(--basic-white);
 	color: var(--basic-dark-blue);
-	display: flex;
-	width: 135px;
-	height: 38px;
-	justify-content: center;
-	align-items: center;
+	padding: 8px 31px 6px 30px;
 	margin-top: 10px;
 	text-decoration: none;
 
@@ -950,6 +956,9 @@
 
 
 .list-button {
+	font-family: Cuprum;
+	font-size: 21px;
+	line-height: 30px;
 	display: flex;
 	align-items: center;
 	padding-left: 16px;
@@ -1011,6 +1020,7 @@
 	line-height: 30px;
 	color: var(--basic-black);
 	margin: 0;
+	text-transform: uppercase;
 }
 
 .main-contact {
@@ -1032,16 +1042,19 @@
 	font-weight: normal;
 	font-size: 13px;
 	line-height: 24px;
+
 	color: var(--basic-black);
 }
 
 .main-contact-text p {
+	display: flex;
 	margin: 0;
 	padding: 0;
 }
 
 .main-contact-text-p {
 	margin-top: 24px;
+	width: 460px;
 }
 
 .main-contact-text-p :last-child {
@@ -1061,18 +1074,19 @@
 
 }
 
-.benefits li {
+.benefits li:first-child {
+	margin-top: 1px;
+}
+
+.benefits li:not(:first-child) {
 	margin-top: 12px;
 }
 
 .about-team {
 	text-decoration-line: none;
 	text-transform: uppercase;
-	align-items: center;
-	justify-content: center;
-	display: flex;
+	padding: 11px 40.29px 9px 39.71px;
 	width: 220px;
-	height: 38px;
 	font-family: Cuprum;
 	font-style: normal;
 	font-weight: normal;
@@ -1080,17 +1094,13 @@
 	line-height: 18px;
 	color: var(--basic-white);
 	background-color: var(--basic-red);
-	margin-top: 17px;
+	margin-top: 20px;
 }
 
 .feedback {
 	text-decoration-line: none;
 	text-transform: uppercase;
-	align-items: center;
-	justify-content: center;
-	display: flex;
-	width: 300px;
-	height: 38px;
+	padding: 11px 61.13px 9px 61.87px; 
 	background-color: var(--basic-red);
 	color: var(--basic-white);
 	font-family: Cuprum;
@@ -1103,6 +1113,10 @@
 
 .map {
 	font-family: PT Sans;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 300px;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 13px;
@@ -1215,7 +1229,7 @@
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 24px;
-	color: var(--basic-dark-orange);
+	color: var(--basic-dark-yellow);
 	text-decoration-line: none;
 }
 
@@ -1243,7 +1257,7 @@
 
 
 .feed-back a {
-	color: var(--basic-dark-orange);
+	color: var(--basic-dark-yellow);
 	text-decoration-line: none;
 }
 
@@ -1262,7 +1276,7 @@
 }
 
 .footer-mail {
-	color: var(--basic-dark-orange);	
+	color: var(--basic-dark-yellow);	
 }
 
 .vk {
