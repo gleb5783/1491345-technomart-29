@@ -895,6 +895,7 @@
 	background-color: var(--basic-white);
 	border: 1px solid #EAEAEA;
 	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.15));
 }
 
 .main-popular-brands .main-popular-brands-container:active {
@@ -1320,17 +1321,55 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* Catalog */
 
 .user-name-button {
+	position: relative;
 	text-decoration-line: none;
 	color: var(--basic-black);
 	font-family: Cuprum;
 	font-style: normal;
+	padding: 12px 57px 12px 56px;
+	background-color: var(--basic-white);						;
 	font-weight: normal;
+	margin-top: 46px;
 	font-size: 21px;
 	line-height: 21px;
 }
+
+.user-name-button::before {
+	content: "";
+	position: absolute;
+	background-image: url(../img/men.svg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 20px;
+	height: 18px;
+	left: 15px;
+}
+
+.user-name-button::after {
+	content: "";
+	position: absolute;
+	background-image: url(../img/icon-logout.svg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 19.91px;
+	height: 17px;
+	right: 17px;
+	top: 14px;
+}
+
+
 
 .bread-crumbs {
 	font-family: PT Sans;
@@ -1341,11 +1380,13 @@
 	display: flex;
 	list-style: none;
 	margin: 0;
-	padding: 0;
+	padding: 0; 
 
 }
 
+
 .user-name-button:active {
+
 	color: var(--active-grey);
 }
 
@@ -1367,17 +1408,24 @@
 	flex-direction: column;
 }
 
+.active-busket .header-button-basket {
+	background-color: var(--basic-red);
 
+}
 
 .user-button {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
+	align-items: center;
+
 }
 
 .user-name-bread-crumbs {
-	margin: 0;
+	margin: 7px 0 0 0;
 	padding: 0;
 	display: flex;
+	width: 210px;
 	justify-content: space-between;
 }
 
@@ -1385,12 +1433,15 @@
 	color: var(--basic-dark-blue);
 	cursor: pointer;
 	list-style-type: none;
+	position: relative;
 	font-family: Cuprum;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 18px;
 }
+
+
 
 .user-name-bread-crumbs li:hover {
 	color: var(--basic-red);
