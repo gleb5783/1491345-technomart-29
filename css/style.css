@@ -1830,7 +1830,13 @@
 	border: 2px solid var(--active-checked);
 }
 
+.filter-input-checkbox:disabled + label::before {
+	opacity: 0.3;
+}
 
+.filter-input-checkbox:disabled + label {
+	opacity: 0.3;
+}
 
 .filter-input-checkbox:checked + label::after {
 	content: "";
@@ -1875,9 +1881,14 @@
 	opacity: 0.4;
 }
 
+.filter-input-radio:disabled + label{
+	opacity: 0.4;
+}
+
 .filter-radio label {
 	padding: 3px 0;
 }
+
 
 .filter-input-radio:checked + label::after {
 	content: "";
