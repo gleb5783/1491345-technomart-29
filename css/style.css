@@ -808,7 +808,8 @@
 	flex-direction: column;
 	width: 220px;
 	min-height: 318px;
-	border: 1px solid grey;
+	border: 1px solid #EAEAEA;
+	box-sizing: border-box;
 
 }
 
