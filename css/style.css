@@ -400,8 +400,17 @@
 	display: flex;
 }
 
+.enter-button:hover{
+	background-image: url(../img/icon-login3.svg);
+}
+
+.enter-button:active {
+	background-image: url(../img/icon-login.svg);
+}
+
 .style-button:hover {
 	color: var(--basic-red);
+	cursor: pointer;
 }
 
 .style-button:active {
@@ -866,9 +875,19 @@
 .strike {
 	color: var(--basic-grey);
 	margin: 0 auto;
+	font-family: PT Sans;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 18px;
 }
 
 .price {
+	font-family: PT Sans;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 18px;
 	width: 141px;
 	height: 38px;
 	color: var(--basic-white);
@@ -1352,7 +1371,7 @@
 	font-family: Cuprum;
 	font-style: normal;
 	padding: 12px 57px 12px 56px;
-	background-color: var(--basic-white);						;
+	background-color: var(--basic-white);	
 	font-weight: normal;
 	margin-top: 46px;
 	font-size: 21px;
@@ -1370,6 +1389,14 @@
 	left: 15px;
 }
 
+.user-name-button:hover::before {
+	background-image: url(../img/icon-user.svg);
+}
+
+.user-name-button:active::before {
+	background-image: url(../img/men.svg);
+}
+
 .user-name-button::after {
 	content: "";
 	position: absolute;
@@ -1382,7 +1409,13 @@
 	top: 14px;
 }
 
+.user-name-button:hover::after {
+	background-image: url(../img/icon-login2.svg);
+}
 
+.user-name-button:active::after {
+	background-image: url(../img/icon-logout.svg);
+}
 
 .bread-crumbs {
 	font-family: PT Sans;
@@ -1395,6 +1428,7 @@
 	margin: 21px 0 0 0;
 	padding: 0; 
 	align-items: center;
+	text-transform: uppercase;
 }
 
 .bread-crumbs:before {
@@ -1547,6 +1581,7 @@
 .active-price {
 	color: var(--basic-red);
 	border: none;
+	opacity: 1;
 }
 
 .catalog-sorting-view li a:hover {
