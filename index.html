@@ -9,32 +9,35 @@
 </head>
 <body class="page-body">
 	<div class="modal-window  modal-hiden">
-		<img src="img/icon-close.svg" class="close" alt="close" width="21" height="21">
+		<img src="img/icon-close.svg" class="close" alt="закрыть окно" width="21" height="21">
 		<div class="centr">
-			<div class="modal-flex">
+			<form method="post" action="https://echo.htmlacademy.ru/" class="modal-flex">
 				<div class="top-input">
 					<div class="left-input">
 						<h2 class="heading">Ваше имя:</h2>
 						<input  class="registred" type="text" name="name" placeholder="Имя Фамилия">
+						<label class="visually-hidden" for="name">Ваше имя</label>
 					</div>
 					<div class="right-input">
 						<h2 class="heading">Ваш e-mail:</h2>
 						<input  class="registred" type="email" name="email" placeholder="email@example.com">
+						<label class="visually-hidden" for="email">Ваш email</label>
 					</div>
 				</div>
 				<div class="bottom-input">
 					<h2 class="heading">Текст письма:</h2>
 					<textarea name="text" placeholder="В свободной форме" class="bottom-text"></textarea>
 				</div>
-			</div>
+			</form>
 		</div>
 		<div class="modal-footer">
 			<div class="centr">
-				<a class="modal-enter" href="#">Отправить</a>
+				<button type="button" class="modal-enter" href="#">Отправить</a>
 			</div>
-		</div></div>
+		</div>
+	</div>
 	<div class="modal-map">
-				<img src="img/icon-close.svg" class="close" alt="close" width="21" height="21">
+				<img src="img/icon-close.svg" class="close" alt="закрыть окно" width="21" height="21">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123775!2d30.320894615826624!3d59.938796869048254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1603246102182!5m2!1sru!2sru" width="943" height="442"  style="border:0;" allowfullscreen aria-hidden="false" title="Офис компании о адресу ул. Большая Конюшенная 19, Санкт-Петербург" tabindex="0"></iframe></div>	
 	
 	<header class="header">
@@ -46,6 +49,7 @@
 						<img src="img/logo-technomart.svg" alt="Техномарт" width="107" height="17" >
 					</a>
 					<input class="main-search"  type="search" name="search" value="Поиск:">
+					<label class="visually-hidden" for="search">Поле поиска по сайту</label>
 				</div>
 				<ul class="header-button-position">
 					<li class="bookmarks">
@@ -117,7 +121,7 @@
 
 
 					<article class="material">
-						<img class="new" src="img/new.svg" width="70" height="70" alt="new">
+						<img class="new" src="img/new.svg" width="70" height="70" alt="новый товар">
 						<h3 class="main-serves-heading">Материалы</h3>
 						<a href="#" class="main-serves-link main-serves-link-style">На любой вкус</a>
 					</article>
@@ -154,8 +158,8 @@
 
 					<ul class="main-serves-slider"><!-- тут будет карусель -->
 						<li class="main-serves-slider-item">
-							<img class="slider-arrow-right" src="img/icon-left.svg" width="22" height="40" alt="arrow-right">
-							<img class="slider-arrow-left" src="img/icon-left.svg" width="22" height="40" alt="arrow-left">
+							<img class="slider-arrow-right" src="img/icon-left.svg" width="22" height="40" alt="стрелка вправо">
+							<img class="slider-arrow-left" src="img/icon-left.svg" width="22" height="40" alt="стрелка влево">
 							<div class="top-slider-text">
 								<h3 class="slider-heading">Перфораторы</h3>
 								<p class="slider-text">Настоящие мужские игрушки</p>
@@ -182,7 +186,7 @@
 				<li class="list-style">
 					<div class="list-style-top">
 						<div class="main-popular-item-catalog-hover-link">
-							<a href="#" class="buy"><svg class="svg-buy" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<a href="#" class="buy"><svg aria-hidden="true" focusable="false" class="svg-buy" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M4.5 15C5.32843 15 6 14.3284 6 13.5C6 12.6716 5.32843 12 4.5 12C3.67157 12 3 12.6716 3 13.5C3 14.3284 3.67157 15 4.5 15Z" fill="white"/>
 								<path d="M12.5 15C13.3284 15 14 14.3284 14 13.5C14 12.6716 13.3284 12 12.5 12C11.6716 12 11 12.6716 11 13.5C11 14.3284 11.6716 15 12.5 15Z" fill="white"/>
 								<path d="M15 2H4.07L3.648 0H0V2H2.031L4.016 11H15V9H9.441L15 6.951V2Z" fill="white"/>
@@ -198,7 +202,7 @@
 					<img class="new" src="img/new.svg" width="70" height="70" alt="new">
 					<div class="list-style-top">
 						<div class="main-popular-item-catalog-hover-link">
-							<a href="#" class="buy"><svg class="svg-buy" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<a href="#" class="buy"><svg aria-hidden="true" focusable="false" class="svg-buy" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M4.5 15C5.32843 15 6 14.3284 6 13.5C6 12.6716 5.32843 12 4.5 12C3.67157 12 3 12.6716 3 13.5C3 14.3284 3.67157 15 4.5 15Z" fill="white"/>
 								<path d="M12.5 15C13.3284 15 14 14.3284 14 13.5C14 12.6716 13.3284 12 12.5 12C11.6716 12 11 12.6716 11 13.5C11 14.3284 11.6716 15 12.5 15Z" fill="white"/>
 								<path d="M15 2H4.07L3.648 0H0V2H2.031L4.016 11H15V9H9.441L15 6.951V2Z" fill="white"/>
@@ -213,7 +217,7 @@
 				<li class="list-style">
 					<div class="list-style-top">
 						<div class="main-popular-item-catalog-hover-link">
-							<a href="#" class="buy"><svg class="svg-buy" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<a href="#" class="buy"><svg aria-hidden="true" focusable="false" class="svg-buy" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M4.5 15C5.32843 15 6 14.3284 6 13.5C6 12.6716 5.32843 12 4.5 12C3.67157 12 3 12.6716 3 13.5C3 14.3284 3.67157 15 4.5 15Z" fill="white"/>
 								<path d="M12.5 15C13.3284 15 14 14.3284 14 13.5C14 12.6716 13.3284 12 12.5 12C11.6716 12 11 12.6716 11 13.5C11 14.3284 11.6716 15 12.5 15Z" fill="white"/>
 								<path d="M15 2H4.07L3.648 0H0V2H2.031L4.016 11H15V9H9.441L15 6.951V2Z" fill="white"/>
@@ -226,7 +230,7 @@
 				</li>
 
 				<li class="list-style">
-					<img class="new" src="img/new.svg" width="70" height="70" alt="new">
+					<img class="new" src="img/new.svg" width="70" height="70" alt="новый товар">
 					<div class="list-style-top">
 						<div class="main-popular-item-catalog-hover-link">
 							<a href="#" class="buy"><svg class="svg-buy" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -360,7 +364,7 @@
 				заехав в наш офис:
 			</p>
 			
-			<img src="img/map.jpg" width="300" height="158" alt="map">
+			<img src="img/map.jpg" width="300" height="158" alt="Карта">
 
 			<a href="#" class="feedback">Заблудились? Напишите нам!</a>
 		</div>

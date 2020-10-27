@@ -167,6 +167,7 @@
 	margin-top: 37px;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
+	border: none;
 	justify-content: center;
 }
 
@@ -534,11 +535,12 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	flex-wrap: wrap;
 	background-color: var(--basic-dark-blue);
 	-webkit-box-shadow: inset 0px -5px 0px #293449;
 	box-shadow: inset 0px -5px 0px #293449;
 	margin: 0;
-	padding: 0 53px;
+	padding: 0 44px;
 	list-style: none;
 }
 
@@ -1305,10 +1307,22 @@
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 24px;
-	list-style-image: url(../img/list-style.svg);
 	padding: 0;
 	margin: 0;
-	list-style-position: inside;
+	position: relative;
+	list-style: none;
+	padding-left: 37px;
+}
+
+.benefits li:before {
+	content: "";
+	background-image: url(../img/red-line.svg);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 2px;
+	position: absolute;
+	left: 0;
+	margin-top: 10px;
 
 }
 
