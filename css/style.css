@@ -43,6 +43,7 @@
 	--bar-background: #00CA74;
 	--toggle-background: #ABABAB;
 	--active-checked: #B5B5B5;
+	--log-out: #3D546F;
 }
 
 .page-body {
@@ -653,7 +654,7 @@
 	grid-row: 2/4;
 	margin: 0;
 	padding: 0;
-
+	background-color: var(--basic-black);
 	list-style: none;
 }
 
@@ -1634,7 +1635,7 @@
 
 /* Catalog */
 
-.user-name-button {
+.user-group {
 	position: relative;
 	-webkit-text-decoration-line: none;
 	text-decoration-line: none;
@@ -1645,6 +1646,14 @@
 	background-color: var(--basic-white);	
 	font-weight: normal;
 	margin-top: 46px;
+	font-size: 21px;
+	line-height: 21px;
+}
+
+.user-name-button {
+	color: var(--basic-black);
+	text-decoration-line: none;
+	font-family: Cuprum;
 	font-size: 21px;
 	line-height: 21px;
 }
@@ -1668,24 +1677,18 @@
 	background-image: url(../img/men.svg);
 }
 
-.user-name-button::after {
-	content: "";
+.log-out {
 	position: absolute;
-	background-image: url(../img/icon-logout.svg);
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	width: 19.91px;
-	height: 17px;
 	right: 17px;
 	top: 14px;
 }
 
-.user-name-button:hover::after {
-	background-image: url(../img/icon-login2.svg);
+.log-out:hover path {
+	fill: var(--log-out);
 }
 
-.user-name-button:active::after {
-	background-image: url(../img/icon-logout.svg);
+.log-out:active path {
+	fill: var(--active-grey);
 }
 
 .bread-crumbs {
