@@ -2387,12 +2387,58 @@
 	opacity: 0.5;
 }
 
+.modal-basket {
+	display: none;
+	z-index: 99;
+	width: 620px;
+	top: 20%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: fixed;
+	border-top: 7px solid var(--basic-red);
+}
 
+.modal-basket-text {
+	font-family: Cuprum;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+	background-color: var(--basic-white);
+	padding: 73px 20px 68px 20px;
+	text-align: center;
+	background-image: url(../img/icon-mark.svg);
+	background-repeat: no-repeat;
+	background-position: 81px 55px;
+}
 
+.button-group {
+	background-color: var(--modal-background);
+	text-align: center;
+	padding: 37px 0;
+	font-family: Cuprum;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18px;
+}
 
+.checkout-button {
+	color: var(--basic-white);
+	background-color: var(--basic-red);
+	border: none;
+	padding: 11px 46px 9px 47px;
+	margin: 0 10px 0 0;
+	cursor: pointer;
+	text-transform: uppercase;
+}
 
-
-
-
+.continue-shopping-button {
+	text-transform: uppercase;
+	background-color: var(--basic-white);
+	padding: 11px 46px 9px 47px;
+	cursor: pointer;
+	border: none;
+}
 
 
