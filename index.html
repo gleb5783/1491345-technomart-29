@@ -15,12 +15,12 @@
 				<div class="top-input">
 					<div class="left-input">
 						<h2 class="heading">Ваше имя:</h2>
-						<input  class="registred" id="name" type="text" name="name" placeholder="Имя Фамилия">
+						<input  class="registred" id="name" type="text" name="name" placeholder="Имя Фамилия" required>
 						<label class="visually-hidden" for="name">Ваше имя</label>
 					</div>
 					<div class="right-input">
 						<h2 class="heading">Ваш e-mail:</h2>
-						<input  class="registred" type="email" id="email" name="email" placeholder="email@example.com">
+						<input  class="registred" type="email" id="email" name="email" placeholder="email@example.com" required>
 						<label class="visually-hidden" for="email">Ваш email</label>
 					</div>
 				</div>
@@ -28,144 +28,145 @@
 					<h2 class="heading">Текст письма:</h2>
 					<textarea name="text" placeholder="В свободной форме" class="bottom-text"></textarea>
 				</div>
+				
+					
+						<button type="submit" class="modal-enter" href="#">Отправить</a>
+					
+				
 			</form>
 		</div>
-		<div class="modal-footer">
-			<div class="centr">
-				<button type="button" class="modal-enter" href="#">Отправить</a>
-			</div>
-		</div>
+		<div class="back-color"></div>
 	</div>
-	<div class="modal-map">
-				<img src="img/icon-close.svg" class="close" alt="закрыть окно" width="21" height="21">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123775!2d30.320894615826624!3d59.938796869048254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1603246102182!5m2!1sru!2sru" width="943" height="442"  style="border:0;" allowfullscreen aria-hidden="false" title="Офис компании о адресу ул. Большая Конюшенная 19, Санкт-Петербург" tabindex="0"></iframe></div>	
-	
-	<header class="header">
-		
-		<div class="header-top-line">
-			<div class="container">
-				<div class="flex">
-					<a class="header-logo">
-						<img src="img/logo-technomart.svg" alt="Техномарт" width="107" height="17" >
-					</a>
-					<input class="main-search"  id="search" type="search" name="search" value="Поиск:">
-					<label class="visually-hidden" for="search">Поле поиска по сайту</label>
+		<div class="modal-map">
+			<img src="img/icon-close.svg" class="close" alt="закрыть окно" width="21" height="21">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123775!2d30.320894615826624!3d59.938796869048254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1603246102182!5m2!1sru!2sru" width="943" height="442"  style="border:0;" allowfullscreen aria-hidden="false" title="Офис компании о адресу ул. Большая Конюшенная 19, Санкт-Петербург" tabindex="0"></iframe></div>	
+
+			<header class="header">
+
+				<div class="header-top-line">
+					<div class="container">
+						<div class="flex">
+							<a class="header-logo">
+								<img src="img/logo-technomart.svg" alt="Техномарт" width="107" height="17" >
+							</a>
+							<input class="main-search"  id="search" type="search" name="search" value="Поиск:">
+							<label class="visually-hidden" for="search">Поле поиска по сайту</label>
+						</div>
+						<ul class="header-button-position">
+							<li class="bookmarks">
+								<a href="#" class="header-button-bookmarks">Закладки: 0</a>
+							</li>
+							<li class="basket">
+								<a href="#" class="header-button-basket">Корзина: 0</a>
+							</li>
+							<li class="button-checkout">
+								<a href="#" class="header-button-checkout">Оформить заказ</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-				<ul class="header-button-position">
-					<li class="bookmarks">
-						<a href="#" class="header-button-bookmarks">Закладки: 0</a>
-					</li>
-					<li class="basket">
-						<a href="#" class="header-button-basket">Корзина: 0</a>
-					</li>
-					<li class="button-checkout">
-						<a href="#" class="header-button-checkout">Оформить заказ</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-		
-		<div class="header-flex-box">
-			<div class="container">
-				<p class="about-site">Интернет магазин<br> строительных материалов<br> и инструментов для ремонта</p>
-				<div class="header-tel">
-					<a href="tel:+78125550555" class="tel">+7 (812) 555-05-55</a>
-					<p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-				</div>
-				<div class="header-button-group">
-					<button class="enter-button style-button" type="button">Войти</button>
-					<button class="registreated-button style-button" type="button">Регистрация</button>
-				</div>
-			</div>
-		</div>	
-		<nav class="nav-padding container">
-			<ul class="main-nav">
-				<li class="style-link">
-					<a href="#">Главная</a>
-				</li>
 
-				<li class="style-link">
-					<a href="#">Компания</a>
-				</li>
-
-				<li class="style-link">
-					<a href="catalog.html">Каталог</a>
-				</li>
-
-				<li class="style-link">
-					<a href="#">Новости</a>
-				</li>
-
-				<li class="style-link">
-					<a href="#">Спецпредложения</a>
-				</li>
-
-				<li class="style-link">
-					<a href="#">Доставка</a>
-				</li>
-
-				<li class="style-link">
-					<a href="#">Контакты</a>
-				</li>
-			</ul>
-		</nav>
-		
-	</header>
-
-	<main class="main">
-		<h1 class="visually-hidden">Интернет-магазин строительныx материалов и инструментов для ремонта</h1>
-		<div class="container">
-			<section class="main-serves"> 
-				<h2 class="visually-hidden">Сервисы</h2>
-				<div class="main-serves-container">
-
-
-					<article class="material">
-						<img class="new" src="img/new.svg" width="70" height="70" alt="новый товар">
-						<h3 class="main-serves-heading">Материалы</h3>
-						<a href="#" class="main-serves-link main-serves-link-style">На любой вкус</a>
-					</article>
-
-
-
-					<article class="tool">
-						<h3 class="main-serves-heading">Инструмент</h3>
-						<a href="#" class="main-serves-link main-serves-link-style">На все случаи</a>
-					</article>
-
-
-
-					<article class="technics">
-						<h3 class="main-serves-heading">Техника</h3>
-						<a href="#" class="main-serves-link main-serves-link-style">Для стройки</a>
-					</article>
-
-
-
-					<article class="discount">
-						<h3 class="main-serves-heading">Скидка 50%</h3>
-						<a href="#" class="main-serves-link main-serves-link-style">На&nbsp;350&nbsp;товаров</a>
-					</article>
-
-
-
-					<article class="delivery">
-						<h3 class="main-serves-heading">Доставка</h3>
-						<a href="#" class="main-serves-link main-serves-link-style">Бесплатно</a>
-					</article>
-
-
-
-					<ul class="main-serves-slider"><!-- тут будет карусель -->
-						<li class="main-serves-slider-item">
-							<img class="slider-arrow-right" src="img/icon-left.svg" width="22" height="40" alt="стрелка вправо">
-							<img class="slider-arrow-left" src="img/icon-left.svg" width="22" height="40" alt="стрелка влево">
-							<div class="top-slider-text">
-								<h3 class="slider-heading">Перфораторы</h3>
-								<p class="slider-text">Настоящие мужские игрушки</p>
-							</div>
-							<a href="#" class="slider-button slider-button-style">Открыть каталог</a>
+				<div class="header-flex-box">
+					<div class="container">
+						<p class="about-site">Интернет магазин<br> строительных материалов<br> и инструментов для ремонта</p>
+						<div class="header-tel">
+							<a href="tel:+78125550555" class="tel">+7 (812) 555-05-55</a>
+							<p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+						</div>
+						<div class="header-button-group">
+							<button class="enter-button style-button" type="button">Войти</button>
+							<button class="registreated-button style-button" type="button">Регистрация</button>
+						</div>
+					</div>
+				</div>	
+				<nav class="nav-padding container">
+					<ul class="main-nav">
+						<li class="style-link">
+							<a href="#">Главная</a>
 						</li>
+
+						<li class="style-link">
+							<a href="#">Компания</a>
+						</li>
+
+						<li class="style-link">
+							<a href="catalog.html">Каталог</a>
+						</li>
+
+						<li class="style-link">
+							<a href="#">Новости</a>
+						</li>
+
+						<li class="style-link">
+							<a href="#">Спецпредложения</a>
+						</li>
+
+						<li class="style-link">
+							<a href="#">Доставка</a>
+						</li>
+
+						<li class="style-link">
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+
+			</header>
+
+			<main class="main">
+				<h1 class="visually-hidden">Интернет-магазин строительныx материалов и инструментов для ремонта</h1>
+				<div class="container">
+					<section class="main-serves"> 
+						<h2 class="visually-hidden">Сервисы</h2>
+						<div class="main-serves-container">
+
+
+							<article class="material">
+								<img class="new" src="img/new.svg" width="70" height="70" alt="новый товар">
+								<h3 class="main-serves-heading">Материалы</h3>
+								<a href="#" class="main-serves-link main-serves-link-style">На любой вкус</a>
+							</article>
+
+
+
+							<article class="tool">
+								<h3 class="main-serves-heading">Инструмент</h3>
+								<a href="#" class="main-serves-link main-serves-link-style">На все случаи</a>
+							</article>
+
+
+
+							<article class="technics">
+								<h3 class="main-serves-heading">Техника</h3>
+								<a href="#" class="main-serves-link main-serves-link-style">Для стройки</a>
+							</article>
+
+
+
+							<article class="discount">
+								<h3 class="main-serves-heading">Скидка 50%</h3>
+								<a href="#" class="main-serves-link main-serves-link-style">На&nbsp;350&nbsp;товаров</a>
+							</article>
+
+
+
+							<article class="delivery">
+								<h3 class="main-serves-heading">Доставка</h3>
+								<a href="#" class="main-serves-link main-serves-link-style">Бесплатно</a>
+							</article>
+
+
+
+							<ul class="main-serves-slider"><!-- тут будет карусель -->
+								<li class="main-serves-slider-item">
+									<img class="slider-arrow-right" src="img/icon-left.svg" width="22" height="40" alt="стрелка вправо">
+									<img class="slider-arrow-left" src="img/icon-left.svg" width="22" height="40" alt="стрелка влево">
+									<div class="top-slider-text">
+										<h3 class="slider-heading">Перфораторы</h3>
+										<p class="slider-text">Настоящие мужские игрушки</p>
+									</div>
+									<a href="#" class="slider-button slider-button-style">Открыть каталог</a>
+								</li>
 					<!--<li>
 						<h3 class="slider-heading">Дрели</h3>
 						<p class="slider-text">Соседям на радость!</p>
