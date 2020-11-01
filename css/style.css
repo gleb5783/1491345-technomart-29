@@ -1866,10 +1866,14 @@
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	flex-wrap: wrap;
 	width: 210px;
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
+}
+
+.user-name-bread-crumbs li:first-child {
 	list-style: none;
 }
 
@@ -1893,6 +1897,8 @@
 .user-name-bread-crumbs a:active {
 	color: var(--active-grey);
 }
+
+
 
 .catalog-sorting-view {
 	list-style: none;
