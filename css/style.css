@@ -182,7 +182,6 @@
 .modal-map {
 	z-index: 99;
 	width: 943px;
-	display: none;
 	position: fixed;
 	top: 20%;
 	right: 0;
@@ -2496,4 +2495,24 @@
 	padding: 11px 46px 9px 47px;
 	cursor: pointer;
 	border: none;
+}
+
+@keyframes bounce {
+	0% {
+		transform: translateY(-2000px);
+	}
+	70% {
+		transform: translateY(30px);
+	}
+	90% {
+		transform: translateY(-10px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.modal-show {
+	display: block;
+	animation: bounce 0.6s;
 }
